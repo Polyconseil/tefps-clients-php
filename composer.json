@@ -1,0 +1,20 @@
+{
+    "name": "tefps/clients-bundle",
+    "type": "symfony-bundle",
+    "description": "Clients Symfony bundle for TeFPS APIs",
+    "license": "Apache-2.0",
+    "authors": [
+      {
+          "name": "Polyconseil",
+          "email": "olivier.dairay@polyconseil.fr",
+          "homepage": "http://www.polyconseil.fr"
+      }
+    ],
+    "require" : {
+      "php": ">=5.6",
+      "symfony/framework-bundle": "^2.8"
+    },
+    "autoload": {
+      "psr-4": { "Tefps\\TefpsClientsBundle\\": "" }
+    }
+}

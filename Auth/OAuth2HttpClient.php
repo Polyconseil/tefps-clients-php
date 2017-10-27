@@ -1,6 +1,6 @@
 <?php
 
-namespace TefpsClientsBundle\Auth;
+namespace Tefps\TefpsClientsBundle\Auth;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7;
@@ -9,9 +9,9 @@ use GuzzleHttp\Exception\ClientException;
 use JMS\Serializer\SerializerBuilder;
 use JMS\Serializer\SerializationContext;
 use JMS\Serializer\Handler\ArrayCollectionHandler;
-use TefpsClientsBundle\Auth\dto\OAuth2ResponseDTO;
-use TefpsClientsBundle\Auth\DateTimeHandler;
-use TefpsClientsBundle\Auth\dto\TefpsError;
+use Tefps\TefpsClientsBundle\Auth\dto\OAuth2ResponseDTO;
+use Tefps\TefpsClientsBundle\Auth\DateTimeHandler;
+use Tefps\TefpsClientsBundle\Auth\dto\TefpsError;
 
 class OAuth2HttpClient
 {

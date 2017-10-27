@@ -34,7 +34,7 @@ class AppKernel extends Kernel
     {
         $bundles = array(
             // ...
-            new TefpsClientsBundle\TefpsClientsBundle(),
+            new Tefps\TefpsClientsBundle\TefpsClientsBundle(),
         );
 
         // ...
@@ -51,8 +51,8 @@ TefpsTvClient - Usage
 ```php
 <?php
 
-use TefpsClientsBundle\Tv\TefpsTvClient;
-use TefpsClientsBundle\Auth\OAuth2HttpClient;
+use Tefps\TefpsClientsBundle\Tv\TefpsTvClient;
+use Tefps\TefpsClientsBundle\Auth\OAuth2HttpClient;
 
 // ...
 

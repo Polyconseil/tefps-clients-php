@@ -1,5 +1,5 @@
 <?php
-namespace TefpsClientsBundle\dto\tv;
+namespace Tefps\TefpsClientsBundle\dto\tv;
 
 use JMS\Serializer\Annotation\Type;
 use JMS\Serializer\Annotation\SerializedName;

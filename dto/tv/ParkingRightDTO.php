@@ -1,8 +1,8 @@
 <?php
 
-namespace TefpsClientsBundle\dto\tv;
+namespace Tefps\TefpsClientsBundle\dto\tv;
 
-use TefpsClientsBundle\dto\tv\ParkingRightCreationDTO;
+use Tefps\TefpsClientsBundle\dto\tv\ParkingRightCreationDTO;
 
 use JMS\Serializer\Annotation\Type;
 use JMS\Serializer\Annotation\SerializedName;

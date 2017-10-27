@@ -1,12 +1,12 @@
 <?php
-namespace TefpsClientsBundle\Tv;
+namespace Tefps\TefpsClientsBundle\Tv;
 
-use TefpsClientsBundle\Auth\OAuth2HttpClient;
-use TefpsClientsBundle\dto\tv\ParkingRightDTO;
-use TefpsClientsBundle\dto\tv\ParkingRightCreationDTO;
-use TefpsClientsBundle\dto\tv\ParkingRightType;
-use TefpsClientsBundle\dto\tv\Plate;
-use TefpsClientsBundle\dto\PatchObject;
+use Tefps\TefpsClientsBundle\Auth\OAuth2HttpClient;
+use Tefps\TefpsClientsBundle\dto\tv\ParkingRightDTO;
+use Tefps\TefpsClientsBundle\dto\tv\ParkingRightCreationDTO;
+use Tefps\TefpsClientsBundle\dto\tv\ParkingRightType;
+use Tefps\TefpsClientsBundle\dto\tv\Plate;
+use Tefps\TefpsClientsBundle\dto\PatchObject;
 
 class TefpsTvClient
 {

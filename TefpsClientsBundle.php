@@ -1,6 +1,6 @@
 <?php
 
-namespace TefpsClientsBundle;
+namespace Tefps\TefpsClientsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace TefpsClientsBundle\dto\tv;
+namespace Tefps\TefpsClientsBundle\dto\tv;
 
 use JMS\Serializer\Annotation\Type;
 use JMS\Serializer\Annotation\SerializedName;
@@ -38,7 +38,7 @@ class ParkingRightCreationDTO {
     private $parkId;
 
     /**
-     * @Type("TefpsClientsBundle\dto\tv\Plate")
+     * @Type("Tefps\TefpsClientsBundle\dto\tv\Plate")
      * @SerializedName("licensePlate")
      */
     private $licensePlate;

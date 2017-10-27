@@ -1,6 +1,6 @@
 <?php
 
-namespace TefpsClientsBundle\Auth\dto;
+namespace Tefps\TefpsClientsBundle\Auth\dto;
 
 use JMS\Serializer\Annotation\Type;
 use JMS\Serializer\Annotation\SerializedName;

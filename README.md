@@ -44,6 +44,7 @@ class AppKernel extends Kernel
 }
 ```
 
+:warning: Be careful, you should use the same OAuth2HttpClient instance for all your clients.
 
 TefpsTvClient - Usage
 =====================
@@ -65,5 +66,28 @@ $client = new TefpsTvClient(new OAuth2HttpClient(
 
 $tv = $client->fetchTv("cityId", "tvId");
 
-}
+
+```
+
+TefpsSubscriberClient - Usage
+=====================
+
+```php
+<?php
+
+use Tefps\TefpsClientsBundle\Tv\TefpsSubscriberClient;
+use Tefps\TefpsClientsBundle\Auth\OAuth2HttpClient;
+
+// ...
+
+$client = new TefpsSubscriberClient(new OAuth2HttpClient(
+        'http://tefps-directory-host:port',
+        'clientId',
+        'clientSecret'),
+        'http://tefps-subscriber-host:port'
+      );
+
+$subscriber = $client->fetchSubscriber("cityId", "subscriberId");
+
+
 ```
